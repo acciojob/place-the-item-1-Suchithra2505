@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content:space-between;
+	
+}
+.item{
+	
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+	gap:10px;
+  justify-content: flex-start;
+	
+	
+}
+#d1,#d2,#d3,#d4{
+	
+	display:flex;
+  
+}
+#d1,#d3{
+	background-color:green;
+}
+#d2,#d4{
+	background-color:red;
+}
